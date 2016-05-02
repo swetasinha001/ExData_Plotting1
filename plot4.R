@@ -19,7 +19,7 @@ par(mfrow = c(2, 2))
 # First plot 
 plot(datetime,as.numeric(epc_subset$Global_active_power),ylab="Global Active Power",xlab="",type="l") 
 
-#Second Plaot
+#Second Plot
 plot(datetime,as.numeric(epc_subset$Voltage),ylab="Voltage",xlab="datetime",type="l") 
 
 #Third Plot
